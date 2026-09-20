@@ -7,7 +7,7 @@ Compliance e Segurança da Informação no Projeto Integrador de 2026-2.
 
 | Item | Situação |
 | --- | --- |
-| Professor(a) | Pendente de preenchimento |
+| Professor(a) | Alciano Gustavo Genovez de Oliveira |
 | Objetivos específicos | Pendentes de confirmação |
 | Entregas | Pendentes de confirmação |
 | Requisitos e controles de segurança | Nenhum artefato registrado |

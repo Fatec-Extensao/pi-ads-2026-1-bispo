@@ -14,6 +14,7 @@ ainda não implementadas.
 
 - [2026-1](./2026-1/): histórico, documentação e código do primeiro semestre.
 - [2026-2](./2026-2/): organização das disciplinas e entregas do segundo semestre.
+- [Plano de entregas da Atividade 06](./2026-2/PLANO-DE-ENTREGAS.md): acompanhamento das Issues por disciplina.
 
 ## Identificação
 

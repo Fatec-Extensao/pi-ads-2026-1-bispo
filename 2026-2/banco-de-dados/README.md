@@ -7,7 +7,7 @@ Dados I no Projeto Integrador de 2026-2.
 
 | Item | Situação |
 | --- | --- |
-| Professor(a) | Pendente de preenchimento |
+| Professor(a) | Luiz Fernando de Oliveira Silva |
 | Objetivos específicos | Pendentes de confirmação |
 | Entregas | Pendentes de confirmação |
 | Modelos, scripts e bases de dados | Nenhum artefato registrado |

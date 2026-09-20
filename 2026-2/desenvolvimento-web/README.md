@@ -7,7 +7,7 @@ Desenvolvimento Web no Projeto Integrador de 2026-2.
 
 | Item | Situação |
 | --- | --- |
-| Professor(a) | Pendente de preenchimento |
+| Professor(a) | Anderson Pazin |
 | Objetivos específicos | Pendentes de confirmação |
 | Entregas | Pendentes de confirmação |
 | Funcionalidades implementadas | Nenhuma registrada |

@@ -24,16 +24,19 @@ e deverão ser incluídos quando o enunciado completo estiver disponível.
 
 | Disciplina | Professor(a) | Pasta |
 | --- | --- | --- |
-| Desenvolvimento Web | Pendente de preenchimento | [desenvolvimento-web](./desenvolvimento-web/) |
-| Banco de Dados I | Pendente de preenchimento | [banco-de-dados](./banco-de-dados/) |
-| Engenharia de Software II | Pendente de preenchimento | [engenharia-software](./engenharia-software/) |
-| Compliance e Segurança da Informação | Pendente de preenchimento | [seguranca](./seguranca/) |
+| Desenvolvimento Web | Anderson Pazin | [desenvolvimento-web](./desenvolvimento-web/) |
+| Banco de Dados I | Luiz Fernando de Oliveira Silva | [banco-de-dados](./banco-de-dados/) |
+| Engenharia de Software II | Rafael Hamamura | [engenharia-software](./engenharia-software/) |
+| Compliance e Segurança da Informação | Alciano Gustavo Genovez de Oliveira | [seguranca](./seguranca/) |
 
 ## Critérios de avaliação
 
 Os critérios de avaliação ainda não estão disponíveis neste repositório. Eles
 deverão ser registrados aqui conforme a orientação acadêmica oficial, sem
 antecipar notas, pesos ou requisitos não confirmados.
+
+As atividades previstas e suas respectivas Issues estão registradas no
+[Plano de Entregas da Atividade 06](./PLANO-DE-ENTREGAS.md).
 
 ## Estrutura de entregas
 

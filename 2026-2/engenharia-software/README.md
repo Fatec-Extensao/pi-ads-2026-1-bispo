@@ -7,7 +7,7 @@ Engenharia de Software II no Projeto Integrador de 2026-2.
 
 | Item | Situação |
 | --- | --- |
-| Professor(a) | Pendente de preenchimento |
+| Professor(a) | Rafael Hamamura |
 | Objetivos específicos | Pendentes de confirmação |
 | Entregas | Pendentes de confirmação |
 | Requisitos do sistema | [Documentação pendente](./requisitos.md) |
