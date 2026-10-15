@@ -6,8 +6,8 @@
 Esta entrega atende ao conteúdo solicitado nas [issues #1](https://github.com/Fatec-Extensao/pi-ads-2026-1-bispo/issues/1)
 e [#2](https://github.com/Fatec-Extensao/pi-ads-2026-1-bispo/issues/2).
 Fontes, requisitos, fluxos de casos de uso e lacunas estão em
-[requisitos.md](../requisitos.md). Não existe esquema SQL neste repositório para
-alegar compatibilidade já validada. O diagrama de classes é conceitual.
+[requisitos.md](../requisitos.md). O [modelo lógico e DDL de BD](../../banco-de-dados/modelo-logico.md)
+materializam uma versão demonstrativa deste domínio. O diagrama de classes é conceitual.
 
 ## Artefatos e edição
 
@@ -80,10 +80,12 @@ UC06 ..> UC07 : <<include>>
 
 As multiplicidades 1:1 Pesquisa–Questionario, 1:N Questionario–Questao e N:M
 Pesquisa–Categoria são **propostas**: não há documento do colega que as fixe.
-Questões sem opções permitem discussão de tipos abertos, sem defini-los como
-escopo confirmado. A associação Resposta–Opcao é 0..*: seleção simples ou múltipla
-precisa ser decidida por tipo de questão. A implementação deve validar que questão
-e opções pertencem ao questionário da pesquisa da submissão.
+O protótipo de BD delimita questões fechadas de seleção única/múltipla, com
+obrigatoriedade configurável. A associação Resposta–Opcao é 1..*: seleção única
+limita a uma opção. As cardinalidades mínimas de estrutura são exigidas na coleta;
+rascunhos podem estar incompletos. A função SQL valida que questão e opções
+pertencem ao questionário da pesquisa da submissão. Essas escolhas continuam
+propostas acadêmicas, sujeitas à validação do escopo pelo responsável.
 
 Usuario–Participacao abstrai a identidade de elegibilidade; não determina login
 por conta cadastrada, matrícula, e-mail ou outro identificador. A chave única é o
@@ -105,6 +107,7 @@ class Usuario {
 class Pesquisa {
   id: Identificador
   titulo: Texto
+  estado: Estado [P]
   aceitaRespostas(): Boolean
 }
 class Categoria {
@@ -119,12 +122,12 @@ class Questao {
   id: Identificador
   enunciado: Texto
   ordem: Inteiro
+  tipo: unica / multipla [P]
   obrigatoria: Boolean [P]
 }
 class Opcao {
-  id: Identificador
+  numero local: Inteiro
   rotulo: Texto
-  ordem: Inteiro
 }
 class Participacao {
   id: Identificador
@@ -142,8 +145,8 @@ class SubmissaoAnonima {
   id: Identificador aleatorio
 }
 class Resposta {
-  id: Identificador
-  valor: Valor [tipo pendente]
+  chave: submissao + questao
+  opcoes: associacao [P]
 }
 Usuario "1" -- "0..*" Pesquisa : proprietario [P]
 Usuario "1" -- "0..*" Participacao : elegivel [P]
@@ -156,7 +159,7 @@ Questao "1" *-- "0..*" Opcao
 Pesquisa "1" -- "0..*" SubmissaoAnonima : pertence a
 SubmissaoAnonima "1" *-- "1..*" Resposta
 Resposta "0..*" -- "1" Questao : responde
-Resposta "0..*" -- "0..*" Opcao : seleciona [P]
+Resposta "0..*" -- "1..*" Opcao : seleciona [P]
 note bottom of Participacao
   Unico (pesquisa, identidadeElegibilidade).
   Sem referencia a submissao/respostas.
@@ -256,9 +259,10 @@ end note
 | Consulta de resultados por gestor sem autorização | Acesso negado. |
 | Revisão de esquema, logs e payloads | Nenhum vínculo nominal persistido com submissão/respostas. |
 
-Esses cenários são critérios futuros, **não testes executados**. A verificação
-executada nesta entrega é documental e visual, registrada em
-[verificacao.md](../verificacao.md). Validar as lacunas antes de declarar as issues
-concluídas. Não foi alterado o banco de dados ou código da aplicação.
+Os critérios foram exercitados no protótipo SQL conforme
+[evidências de BD](../../banco-de-dados/testes/evidencias.md), incluindo falhas e
+concorrência real. Autorização por proprietário e backend HTTP continuam futuros.
+A revisão documental e visual está em [verificacao.md](../verificacao.md).
+A entrega técnica não substitui a validação acadêmica das propostas.
 
 [Voltar para Engenharia de Software II](../README.md)

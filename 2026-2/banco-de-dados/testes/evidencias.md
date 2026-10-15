@@ -68,14 +68,14 @@ A confirmou; B foi rejeitada após a revalidação. Não houve segunda submissã
 ```text
 Conexão A: exit 0
 BEGIN
- finalizar 
+ finalizar
 -----------
  t
 (1 row)
 
- pg_sleep 
+ pg_sleep
 ----------
- 
+
 (1 row)
 
 COMMIT

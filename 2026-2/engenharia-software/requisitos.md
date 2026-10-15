@@ -151,7 +151,21 @@ Não persistir esse vínculo; definir controles de logs, acesso e retenção com
 | #2: sequência | Diagrama de preenchimento/finalização e alternativas na especificação UML |
 | #2: imagens e especificação | Três SVGs editáveis e documentação Markdown |
 
-Os checklists das issues continuam pendentes até revisão e validação acadêmica.
-Não há evidência de implementação nem teste de execução do sistema.
+## Delimitação testável na entrega de Banco de Dados
+
+O [protótipo SQL](../banco-de-dados/README.md) adota como propostas desta versão:
+um questionário por pesquisa, categorias N:M, questões fechadas de seleção
+única/múltipla e obrigatoriedade configurável. A pesquisa passa de rascunho para
+aberta e depois encerrada, sem retorno; a estrutura é congelada após abertura.
+Rascunhos podem estar incompletos; abertura exige questões e opções. Cada
+submissão tem ao menos uma resposta. Esses limites permitem validação técnica
+sem alegar confirmação do escopo definitivo. Não definem expiração de tokens,
+canal dos relatórios ou retenção.
+
+As [evidências de BD](../banco-de-dados/testes/evidencias.md) cobrem integridade,
+consumo do token, rollback, reenvio e concorrência no PostgreSQL. Backend,
+autenticação HTTP e autorização por proprietário não foram implementados.
+A entrega técnica dos artefatos pode ser registrada nas issues; a aprovação
+do professor/responsável e as lacunas de escopo permanecem independentes.
 
 [Voltar para Engenharia de Software II](./README.md)

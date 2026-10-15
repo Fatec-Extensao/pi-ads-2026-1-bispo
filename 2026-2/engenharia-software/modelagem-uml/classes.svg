@@ -14,30 +14,31 @@
 <text x="230.0" y="223" class="head" text-anchor="middle">Categoria</text>
 <text x="74" y="261" class="" text-anchor="start">id: Identificador</text>
 <text x="74" y="288" class="" text-anchor="start">nome: Texto</text>
-<rect x="650" y="195" width="340" height="139" fill="#f5f8fc" stroke="#64748b" stroke-width="1.5"/>
+<rect x="650" y="195" width="340" height="166" fill="#f5f8fc" stroke="#64748b" stroke-width="1.5"/>
 <rect x="650" y="195" width="340" height="42" fill="#e0ecfa" stroke="#64748b" stroke-width="1.5"/>
 <text x="820.0" y="223" class="head" text-anchor="middle">Pesquisa</text>
 <text x="664" y="261" class="" text-anchor="start">id: Identificador</text>
 <text x="664" y="288" class="" text-anchor="start">titulo: Texto</text>
-<text x="664" y="315" class="" text-anchor="start">aceitaRespostas(): Boolean</text>
+<text x="664" y="315" class="" text-anchor="start">estado: Estado [P]</text>
+<text x="664" y="342" class="" text-anchor="start">aceitaRespostas(): Boolean</text>
 <rect x="650" y="470" width="340" height="112" fill="#f5f8fc" stroke="#64748b" stroke-width="1.5"/>
 <rect x="650" y="470" width="340" height="42" fill="#e0ecfa" stroke="#64748b" stroke-width="1.5"/>
 <text x="820.0" y="498" class="head" text-anchor="middle">Questionario</text>
 <text x="664" y="536" class="" text-anchor="start">id: Identificador</text>
 <text x="664" y="563" class="" text-anchor="start">validarEstrutura()</text>
-<rect x="650" y="720" width="340" height="166" fill="#f5f8fc" stroke="#64748b" stroke-width="1.5"/>
+<rect x="650" y="720" width="340" height="193" fill="#f5f8fc" stroke="#64748b" stroke-width="1.5"/>
 <rect x="650" y="720" width="340" height="42" fill="#e0ecfa" stroke="#64748b" stroke-width="1.5"/>
 <text x="820.0" y="748" class="head" text-anchor="middle">Questao</text>
 <text x="664" y="786" class="" text-anchor="start">id: Identificador</text>
 <text x="664" y="813" class="" text-anchor="start">enunciado: Texto</text>
 <text x="664" y="840" class="" text-anchor="start">ordem: Inteiro</text>
-<text x="664" y="867" class="" text-anchor="start">obrigatoria: Boolean [P]</text>
-<rect x="650" y="1035" width="340" height="139" fill="#f5f8fc" stroke="#64748b" stroke-width="1.5"/>
+<text x="664" y="867" class="" text-anchor="start">tipo: unica / multipla [P]</text>
+<text x="664" y="894" class="" text-anchor="start">obrigatoria: Boolean [P]</text>
+<rect x="650" y="1035" width="340" height="112" fill="#f5f8fc" stroke="#64748b" stroke-width="1.5"/>
 <rect x="650" y="1035" width="340" height="42" fill="#e0ecfa" stroke="#64748b" stroke-width="1.5"/>
 <text x="820.0" y="1063" class="head" text-anchor="middle">Opcao</text>
-<text x="664" y="1101" class="" text-anchor="start">id: Identificador</text>
+<text x="664" y="1101" class="" text-anchor="start">numero local: Inteiro</text>
 <text x="664" y="1128" class="" text-anchor="start">rotulo: Texto</text>
-<text x="664" y="1155" class="" text-anchor="start">ordem: Inteiro</text>
 <rect x="60" y="470" width="340" height="112" fill="#f5f8fc" stroke="#64748b" stroke-width="1.5"/>
 <rect x="60" y="470" width="340" height="42" fill="#e0ecfa" stroke="#64748b" stroke-width="1.5"/>
 <text x="230.0" y="498" class="head" text-anchor="middle">SubmissaoAnonima</text>
@@ -46,8 +47,8 @@
 <rect x="60" y="770" width="340" height="112" fill="#f5f8fc" stroke="#64748b" stroke-width="1.5"/>
 <rect x="60" y="770" width="340" height="42" fill="#e0ecfa" stroke="#64748b" stroke-width="1.5"/>
 <text x="230.0" y="798" class="head" text-anchor="middle">Resposta</text>
-<text x="74" y="836" class="" text-anchor="start">id: Identificador</text>
-<text x="74" y="863" class="" text-anchor="start">valor: Valor [tipo pendente]</text>
+<text x="74" y="836" class="" text-anchor="start">chave: submissao + questao</text>
+<text x="74" y="863" class="" text-anchor="start">opcoes: associacao [P]</text>
 <rect x="1300" y="195" width="340" height="112" fill="#f5f8fc" stroke="#64748b" stroke-width="1.5"/>
 <rect x="1300" y="195" width="340" height="42" fill="#e0ecfa" stroke="#64748b" stroke-width="1.5"/>
 <text x="1470.0" y="223" class="head" text-anchor="middle">Usuario</text>
@@ -71,14 +72,14 @@
 <text x="410" y="236" class="" text-anchor="start">0..*</text>
 <text x="590" y="236" class="" text-anchor="start">0..*</text>
 <text x="495" y="275" class="label" text-anchor="start">classifica [P]</text>
-<polyline points="820,334 820,470" fill="none" stroke="#334155" stroke-width="1.7" marker-start="url(#diamond)"/>
-<text x="835" y="365" class="" text-anchor="start">1</text>
+<polyline points="820,361 820,470" fill="none" stroke="#334155" stroke-width="1.7" marker-start="url(#diamond)"/>
+<text x="835" y="390" class="" text-anchor="start">1</text>
 <text x="835" y="447" class="" text-anchor="start">1 [P]</text>
 <polyline points="820,582 820,720" fill="none" stroke="#334155" stroke-width="1.7" marker-start="url(#diamond)"/>
 <text x="835" y="612" class="" text-anchor="start">1</text>
 <text x="835" y="695" class="" text-anchor="start">1..* [P]</text>
-<polyline points="820,886 820,1035" fill="none" stroke="#334155" stroke-width="1.7" marker-start="url(#diamond)"/>
-<text x="835" y="915" class="" text-anchor="start">1</text>
+<polyline points="820,913 820,1035" fill="none" stroke="#334155" stroke-width="1.7" marker-start="url(#diamond)"/>
+<text x="835" y="945" class="" text-anchor="start">1</text>
 <text x="835" y="1010" class="" text-anchor="start">0..*</text>
 <polyline points="650,300 510,300 510,515 400,515" fill="none" stroke="#334155" stroke-width="1.7"/>
 <text x="605" y="289" class="" text-anchor="start">1</text>
@@ -93,7 +94,7 @@
 <text x="480" y="846" class="label" text-anchor="start">responde</text>
 <polyline points="400,850 540,850 540,1100 650,1100" fill="none" stroke="#334155" stroke-width="1.7"/>
 <text x="415" y="880" class="" text-anchor="start">0..*</text>
-<text x="595" y="1086" class="" text-anchor="start">0..* [P]</text>
+<text x="595" y="1086" class="" text-anchor="start">1..* [P]</text>
 <text x="433" y="994" class="label" text-anchor="start">seleciona</text>
 <polyline points="990,240 1300,240" fill="none" stroke="#334155" stroke-width="1.7"/>
 <text x="1000" y="226" class="" text-anchor="start">0..*</text>
@@ -115,6 +116,6 @@
 <text x="1240" y="1160" class="label" text-anchor="start">Token nao referencia resposta.</text>
 <text x="1240" y="1195" class="label" text-anchor="start">Validade / reemissao: pendentes.</text>
 <text x="45" y="1320" class="" text-anchor="start">Losango cheio = composição. [P] = escolha proposta. Todas as associações exigem validação do responsável.</text>
-<text x="45" y="1355" class="" text-anchor="start">Questões fechadas usam opções; tipos e cardinalidade da seleção são pendentes. Categorias N:M são uma proposta.</text>
+<text x="45" y="1355" class="" text-anchor="start">Protótipo BD: questões fechadas única/múltipla; estrutura mínima exigida ao abrir. Rascunho permite montagem incompleta.</text>
 <text x="45" y="1390" class="" text-anchor="start">Não há associação entre Participacao/TokenIndividual e SubmissaoAnonima/Resposta. Separação não garante anonimato absoluto.</text>
 </svg>

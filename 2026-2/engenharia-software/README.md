@@ -36,6 +36,7 @@ escopo detalhado pelo responsável. Nenhum artefato de outro repositório foi co
 
 As imagens SVG são simultaneamente exportações visualizáveis e fontes vetoriais
 editáveis. A especificação também contém fontes UML em blocos de texto Markdown.
-O plano de entregas e os checklists das issues permanecem pendentes até revisão.
+O plano de entregas e os checklists distinguem entrega técnica de integração na
+main e aprovação acadêmica. Veja também o [protótipo testado de BD](../banco-de-dados/README.md).
 
 [Voltar para 2026-2](../README.md)
