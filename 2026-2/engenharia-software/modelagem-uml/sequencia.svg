@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1640" viewBox="0 0 1800 1640" role="img" aria-labelledby="title desc">
+<title id="title">Sequência — preencher e finalizar questionário</title><desc id="desc">Proposta transacional • validação no servidor • falha, reenvio e concorrência explícitos</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#334155"/></marker><marker id="diamond" viewBox="0 0 16 10" refX="1" refY="5" markerWidth="14" markerHeight="10" orient="auto"><path d="M 1 5 L 8 1 L 15 5 L 8 9 Z" fill="#334155"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#172b45;font-size:18px}.title{font-size:30px;font-weight:bold}.sub{font-size:18px;fill:#475569}.label{font-size:17px}.head{font-weight:bold;font-size:21px}</style>
+<text x="35" y="45" class="title" text-anchor="start">Sequência — preencher e finalizar questionário</text>
+<text x="35" y="76" class="sub" text-anchor="start">Proposta transacional • validação no servidor • falha, reenvio e concorrência explícitos</text>
+<rect x="10" y="115" width="200" height="55" fill="#e0ecfa" stroke="#64748b" stroke-width="1.5"/>
+<text x="110" y="149" class="label" text-anchor="middle">Respondente</text>
+<polyline points="110,170 110,1530" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5"/>
+<rect x="270" y="115" width="200" height="55" fill="#e0ecfa" stroke="#64748b" stroke-width="1.5"/>
+<text x="370" y="149" class="label" text-anchor="middle">Tela web</text>
+<polyline points="370,170 370,1530" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5"/>
+<rect x="560" y="115" width="200" height="55" fill="#e0ecfa" stroke="#64748b" stroke-width="1.5"/>
+<text x="660" y="149" class="label" text-anchor="middle">ServicoPesquisa</text>
+<polyline points="660,170 660,1530" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5"/>
+<rect x="880" y="115" width="200" height="55" fill="#e0ecfa" stroke="#64748b" stroke-width="1.5"/>
+<text x="980" y="149" class="label" text-anchor="middle">ControleParticipacao</text>
+<polyline points="980,170 980,1530" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5"/>
+<rect x="1200" y="115" width="200" height="55" fill="#e0ecfa" stroke="#64748b" stroke-width="1.5"/>
+<text x="1300" y="149" class="label" text-anchor="middle">RepositorioAnonimo</text>
+<polyline points="1300,170 1300,1530" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5"/>
+<rect x="1530" y="115" width="200" height="55" fill="#e0ecfa" stroke="#64748b" stroke-width="1.5"/>
+<text x="1630" y="149" class="label" text-anchor="middle">Banco de dados</text>
+<polyline points="1630,170 1630,1530" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5"/>
+<polyline points="110,220 370,220" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="240.0" y="211" class="label" text-anchor="middle">1. Informar credencial e pesquisa</text>
+<polyline points="370,275 660,275" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="515.0" y="266" class="label" text-anchor="middle">2. Solicitar acesso</text>
+<polyline points="660,330 980,330" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="820.0" y="321" class="label" text-anchor="middle">3. Validar token / participação</text>
+<polyline points="980,385 1630,385" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="1305.0" y="376" class="label" text-anchor="middle">4. Consultar autorização e resumo do token</text>
+<polyline points="1630,440 980,440" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="1305.0" y="431" class="label" text-anchor="middle">5. Dados de controle</text>
+<polyline points="980,495 660,495" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="820.0" y="486" class="label" text-anchor="middle">6. Acesso válido ou erro</text>
+<polyline points="660,550 1630,550" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="1145.0" y="541" class="label" text-anchor="middle">7. Se válido: carregar questionário elegível</text>
+<polyline points="660,605 370,605" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="515.0" y="596" class="label" text-anchor="middle">8. Formulário ou erro de acesso</text>
+<polyline points="370,660 110,660" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="240.0" y="651" class="label" text-anchor="middle">9. Preencher, navegar e revisar</text>
+<polyline points="110,715 370,715" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="240.0" y="706" class="label" text-anchor="middle">10. Confirmar envio</text>
+<polyline points="370,770 660,770" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="515.0" y="761" class="label" text-anchor="middle">11. Enviar credencial + respostas</text>
+<rect x="600" y="800" width="1120" height="620" fill="none" stroke="#64748b" stroke-width="1.5"/>
+<text x="615" y="827" class="head" text-anchor="start">transação única — mesma conexão de banco</text>
+<polyline points="660,865 1630,865" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="1145.0" y="856" class="label" text-anchor="middle">12. BEGIN</text>
+<polyline points="660,915 980,915" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="820.0" y="906" class="label" text-anchor="middle">13. Travar e revalidar autorização</text>
+<polyline points="980,965 1630,965" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="1305.0" y="956" class="label" text-anchor="middle">14. Bloquear participação; verificar token e unicidade</text>
+<polyline points="660,1015 1630,1015" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="1145.0" y="1006" class="label" text-anchor="middle">15. Revalidar pesquisa, questionário e respostas</text>
+<rect x="615" y="1040" width="1090" height="340" fill="none" stroke="#64748b" stroke-width="1.5"/>
+<text x="630" y="1064" class="label" text-anchor="start">alt [autorização válida + respostas válidas]</text>
+<polyline points="660,1110 1300,1110" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="980.0" y="1101" class="label" text-anchor="middle">16. Gravar submissão SEM identidade/token</text>
+<polyline points="1300,1160 1630,1160" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="1465.0" y="1151" class="label" text-anchor="middle">17. Inserir submissão e respostas</text>
+<polyline points="660,1210 980,1210" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="820.0" y="1201" class="label" text-anchor="middle">18. Finalizar participação e consumir token</text>
+<polyline points="980,1260 1630,1260" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="1305.0" y="1251" class="label" text-anchor="middle">19. Atualizar controle nominal</text>
+<polyline points="660,1310 1630,1310" fill="none" stroke="#334155" stroke-width="1.7" marker-end="url(#arrow)"/>
+<text x="1145.0" y="1301" class="label" text-anchor="middle">20. COMMIT</text>
+<polyline points="615,1335 1705,1335" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5"/>
+<text x="630" y="1363" class="label" text-anchor="start">else [inválido / já finalizada / falha]: ROLLBACK; nenhum efeito parcial</text>
+<polyline points="660,1430 370,1430" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="515.0" y="1421" class="label" text-anchor="middle">21. Confirmar sucesso somente após COMMIT; caso contrário, erro</text>
+<polyline points="370,1490 110,1490" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="240.0" y="1481" class="label" text-anchor="middle">22. Mostrar confirmação ou erro</text>
+<text x="35" y="1570" class="" text-anchor="start">Concorrência: a segunda tentativa aguarda o bloqueio, revalida e é rejeitada se a primeira confirmou. Não duplica respostas.</text>
+<text x="35" y="1605" class="" text-anchor="start">Resposta de rede perdida após COMMIT: novo envio consulta o controle e não grava novamente. Não recupera conteúdo por token.</text>
+</svg>
