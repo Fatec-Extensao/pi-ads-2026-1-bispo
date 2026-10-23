@@ -21,3 +21,7 @@ Cobertura: 12 páginas em duas larguras, ausência de overflow da página, rótu
 O validador Python confere links e recursos locais do HTML, unicidade de IDs, rótulos, semântica, alt e XML dos wireframes. A publicação nativa do GitHub Pages lê a branch gh-pages, gerada exclusivamente a partir de src. O histórico de deployments no GitHub registra a publicação; a URL pública é verificada após o deploy. Para atualizar, valide localmente e execute a partir da raiz do repositório: git subtree split --prefix=2026-2/desenvolvimento-web/src; publique o SHA retornado com git push origin SHA:gh-pages.
 
 Não são testes de backend, autenticação ou garantias de anonimato. Inspeção de acessibilidade básica e contraste das cores principais não equivale a auditoria completa WCAG.
+
+## Testes no endereço público
+
+Também executados em 23/10/2026, com as mesmas verificações de páginas e formulários. [Resultados online](./evidencias-publicas/resultado.json). Para reproduzir, defina WEB_TEST_BASE_URL=https://fatec-extensao.github.io/pi-ads-2026-1-bispo ao executar fluxos.cjs; omita a barra final. Os testes usam dados fictícios e não enviam formulários.

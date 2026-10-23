@@ -1,9 +1,12 @@
 {
   "date": "2026-10-23",
   "url": "https://fatec-extensao.github.io/pi-ads-2026-1-bispo/",
-  "status": "blocked_by_organization_actions_policy",
-  "repository_enable_attempt": 409,
+  "http_status": 200,
+  "status": "published_and_verified",
+  "source_branch": "gh-pages",
+  "source_commit": "ee5c8d3d09510eef6481017249194475a9256f82",
+  "public_browser_suite": "passed",
   "authenticated_login": "Matheusxdx2",
-  "repository_admin": true,
-  "next_step": "Administrador da organização deve liberar Actions; publicar e verificar URL antes de encerrar a issue #9."
+  "actions_enable_attempt": 409,
+  "organization_policy_changed": false
 }

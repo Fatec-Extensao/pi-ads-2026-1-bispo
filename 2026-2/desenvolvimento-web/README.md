@@ -4,7 +4,7 @@
 
 Protótipo acadêmico integrado a partir de `desenvolvimentoweb.zip`, fornecido pelo usuário. Preserva as 12 páginas, o banner e a identidade visual recebidos; acrescenta JavaScript, validações, navegação por etapas e ajustes de acessibilidade e responsividade.
 
-**Publicação bloqueada pela política da organização.** Endereço previsto: [GitHub Pages](https://fatec-extensao.github.io/pi-ads-2026-1-bispo/). [Código inicial](./src/index.html).
+**Aplicação publicada e verificada:** [GitHub Pages](https://fatec-extensao.github.io/pi-ads-2026-1-bispo/). [Código inicial](./src/index.html).
 
 ## Entregas
 
@@ -33,12 +33,14 @@ A integração com banco e regras de anonimato exige backend, autorização, tra
 
 ## Situação da entrega
 
-Adaptação autorizada pelo usuário do mesmo protótipo entregue aos projetos Schiazza e Santos. O conteúdo usa exemplos de questionários; não altera as propostas de requisitos nem o banco do Bispo. A conclusão refere-se apenas ao front-end demonstrativo das issues #6, #7 e #8. A issue #9 depende de publicação e verificação do endereço público.
+Adaptação autorizada pelo usuário do mesmo protótipo entregue aos projetos Schiazza e Santos. O conteúdo usa exemplos de questionários; não altera as propostas de requisitos nem o banco do Bispo. A conclusão refere-se apenas ao front-end demonstrativo das issues #6, #7 e #8. A issue #9 foi atendida pela publicação nativa do GitHub Pages e pelos testes no endereço público.
 
-A publicação depende da permissão da conta autenticada e das políticas da organização. Nenhuma publicação é declarada concluída antecipadamente.
+A publicação nativa está configurada na branch gh-pages, a partir do conteúdo de src.
 
-## Bloqueio de publicação — 23/10/2026
+## Publicação verificada — 23/10/2026
 
-A conta Matheusxdx2 tem permissão administrativa sobre este repositório. GitHub Actions está desativado pela organização Fatec-Extensao: a tentativa de habilitação no repositório retornou HTTP 409, informando que o bloqueio vem da organização. Nenhuma política da organização foi alterada.
+A publicação nativa do GitHub Pages pela branch gh-pages funcionou. O endereço público retornou HTTP 200 e passou pela mesma suíte de navegação, formulários e responsividade usada localmente: 12 páginas em 360 e 1280 px, recursos estáticos acessíveis e nenhum erro JavaScript/HTTP nos fluxos testados.
 
-O front-end pode ser usado localmente. A branch gh-pages recebe apenas o conteúdo de src. Um administrador da organização deve liberar a execução necessária para a publicação; depois é preciso testar o endereço público antes de concluir a issue #9. As issues #6, #7 e #8 correspondem aos artefatos locais verificados, não à conclusão de backend ou aprovação acadêmica.
+GitHub Actions continua desativado pela organização, e a tentativa de habilitar no repositório retornou HTTP 409. Esse resultado não impediu a publicação nativa que foi efetivamente verificada. Nenhuma política da organização foi alterada.
+
+[Resultados dos testes públicos](./testes/evidencias-publicas/resultado.json) · [Registro de publicação](./testes/evidencias/publicacao.json).

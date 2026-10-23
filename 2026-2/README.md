@@ -11,7 +11,7 @@
 | Componente acadêmico | Projeto Integrador |
 | Semestre | 2026-2 |
 | Integrantes | Pendente de preenchimento |
-| Link da aplicação | Pendente |
+| Link da aplicação | [Protótipo publicado](https://fatec-extensao.github.io/pi-ads-2026-1-bispo/) |
 
 ## Objetivos
 

@@ -1,11 +1,13 @@
 # Projeto Integrador — ADS — FATEC Lins
 
+**Aplicação publicada:** [Sistema de Gestão de Pesquisas — demonstração](https://fatec-extensao.github.io/pi-ads-2026-1-bispo/)
+
 Repositório oficial do Projeto Integrador do curso de Análise e Desenvolvimento
 de Sistemas da FATEC Lins, organizado por semestre letivo.
 
 ## Desenvolvimento Web
 
-[Protótipo e instruções locais](./2026-2/desenvolvimento-web/README.md). Publicação pública bloqueada pela política de GitHub Actions da organização Fatec-Extensao; requer liberação por um administrador da organização.
+[Protótipo e instruções locais](./2026-2/desenvolvimento-web/README.md). Protótipo publicado pelo GitHub Pages e verificado em 23/10/2026, com dados fictícios e sem backend.
 
 ## Sistema
 
@@ -29,7 +31,7 @@ ainda não implementadas.
 | Projeto | Projeto Integrador |
 | Repositório | `Fatec-Extensao/pi-ads-2026-1-bispo` |
 | Integrantes | Pendente de preenchimento |
-| Aplicação | Link pendente |
+| Aplicação | [Protótipo publicado](https://fatec-extensao.github.io/pi-ads-2026-1-bispo/) |
 
 ## Estrutura das entregas
 
