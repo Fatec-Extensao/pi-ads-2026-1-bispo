@@ -3,6 +3,10 @@
 Repositório oficial do Projeto Integrador do curso de Análise e Desenvolvimento
 de Sistemas da FATEC Lins, organizado por semestre letivo.
 
+## Desenvolvimento Web
+
+[Protótipo e instruções locais](./2026-2/desenvolvimento-web/README.md). Publicação pública ainda pendente de verificação.
+
 ## Sistema
 
 O Projeto Integrador tem como objeto um sistema de pesquisas por questionários.
@@ -61,5 +65,4 @@ implementação. Arquivos `.docx`, `.xlsx`, `.pptx` e `.pdf` não devem ser
 adicionados. Quando um documento externo for necessário, deve-se usar um link
 público.
 
-As pastas vazias `assets/imagens` e `2026-2/desenvolvimento-web/src` são mantidas
-no Git por arquivos `.gitkeep` até que existam artefatos reais.
+A pasta vazia `assets/imagens` é mantida por `.gitkeep`. O código demonstrativo de Desenvolvimento Web está disponível em `2026-2/desenvolvimento-web/src`.
