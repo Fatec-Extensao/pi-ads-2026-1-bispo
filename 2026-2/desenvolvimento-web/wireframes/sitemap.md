@@ -1,9 +1,27 @@
-# Mapa do site
+# Sitemap e wireframes
 
-> **Documentação pendente:** a estrutura de navegação do sistema ainda não foi
-> disponibilizada ou validada.
+Arquitetura extraída do ZIP enviado pelo usuário e atualizada em 21/10/2026. Wireframes de baixa fidelidade documentados a partir das telas recebidas, sem alegar prototipação anterior.
 
-Este arquivo está reservado ao mapa real das telas e de suas relações. Nenhuma
-tela ou rota foi inventada para preencher o modelo.
+```text
+index.html — Home / Institucional
+├── login.html — acesso e cadastro demonstrativos
+└── main.html — painel de navegação
+    ├── paginas/categoria.html
+    ├── paginas/pesquisa.html
+    ├── paginas/perguntas.html
+    ├── paginas/questionario.html
+    ├── paginas/senhas.html
+    ├── paginas/solicitar-senha.html
+    ├── paginas/responder.html — código → experiência → recomendação → comentário
+    ├── paginas/monitoramento.html
+    └── paginas/relatorios.html
+```
 
-[Voltar para Desenvolvimento Web](../README.md)
+Todas as páginas compartilham cabeçalho, navegação, rodapé e CSS. O painel dá acesso às nove funções; páginas internas retornam ao painel. O login apenas demonstra navegação e não controla acesso real.
+
+- [Home](./home.svg)
+- [Login / acesso](./login.svg)
+- [Formulário de pesquisa](./formulario.svg)
+- [Painel de resultados](./resultados.svg)
+
+[Abrir protótipo](../src/index.html) · [Voltar à disciplina](../README.md)
