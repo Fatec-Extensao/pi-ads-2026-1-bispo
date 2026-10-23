@@ -5,7 +5,7 @@ de Sistemas da FATEC Lins, organizado por semestre letivo.
 
 ## Desenvolvimento Web
 
-[Protótipo e instruções locais](./2026-2/desenvolvimento-web/README.md). Publicação pública ainda pendente de verificação.
+[Protótipo e instruções locais](./2026-2/desenvolvimento-web/README.md). Publicação pública bloqueada pela política de GitHub Actions da organização Fatec-Extensao; requer liberação por um administrador da organização.
 
 ## Sistema
 
