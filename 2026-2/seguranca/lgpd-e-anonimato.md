@@ -109,9 +109,31 @@ Deverá existir um canal de comunicação para que os participantes possam exerc
 
 ## 8. Aviso de privacidade para participantes
 
-O aviso de privacidade deve ser apresentado de forma clara, acessível e antes do envio das respostas. O modelo a seguir deve ser preenchido e revisado pelos responsáveis antes de qualquer uso com participantes reais.
+O aviso de privacidade deve ser apresentado de forma clara, acessível e antes do envio das respostas. A subseção 8.1 apresenta o aviso aplicável ao protótipo atual; a subseção 8.2 mantém um modelo para uma futura pesquisa com coleta real de dados.
 
-### Modelo de aviso de privacidade
+### 8.1 Aviso de privacidade do protótipo demonstrativo
+
+**Aviso de Privacidade — Sistema de Gestão de Pesquisas (protótipo acadêmico)**
+
+Este sistema é um protótipo acadêmico do Projeto Integrador da FATEC Lins. Ele demonstra os fluxos de criação, aplicação e acompanhamento de pesquisas de satisfação, sem coletar, enviar, armazenar ou analisar respostas reais.
+
+**Responsável e contato**
+
+O protótipo é mantido pela equipe do Projeto Integrador da FATEC Lins. Para dúvidas sobre esta demonstração, utilize o rastreador de Issues do repositório: https://github.com/Fatec-Extensao/pi-ads-2026-1-bispo/issues.
+
+**Dados e finalidade**
+
+O front-end demonstrativo não possui autenticação real, banco de dados, API, envio de formulários ou armazenamento de respostas. Os valores e relatórios exibidos são fictícios e servem exclusivamente para demonstrar as funcionalidades previstas para o sistema.
+
+Por esse motivo, não há coleta de dados pessoais pelo protótipo nem base legal de tratamento a ser aplicada às respostas. Não informe dados pessoais, senhas reais ou informações de terceiros nos campos de demonstração.
+
+**Compartilhamento, retenção e direitos**
+
+O protótipo não compartilha nem retém respostas ou cadastros reais. Como não há armazenamento de dados pelo sistema demonstrativo, não há dados de participantes a serem acessados, corrigidos ou eliminados pela equipe do projeto. A plataforma de hospedagem pode tratar dados técnicos de conexão segundo suas próprias políticas, fora do escopo do front-end demonstrativo.
+
+Não há decisões automatizadas que produzam efeitos sobre participantes. Este aviso está na versão 1.0, de 5 de novembro de 2026.
+
+### 8.2 Modelo de aviso de privacidade para pesquisa real
 
 **Aviso de Privacidade — [nome da pesquisa]**
 
