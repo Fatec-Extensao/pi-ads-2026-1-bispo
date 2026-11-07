@@ -1,7 +1,7 @@
 # Análise de riscos e ameaças Web
 
-**Projeto:** protótipo acadêmico de pesquisas por questionários — FATEC Lins  
-**Data:** 6 de novembro de 2026  
+**Projeto:** protótipo acadêmico de pesquisas por questionários — FATEC Lins
+**Data:** 6 de novembro de 2026
 **Escopo:** avaliação documental do protótipo estático e das propostas técnicas deste repositório. Não é pentest, auditoria de infraestrutura ou declaração de segurança de produção.
 
 ## Contexto
