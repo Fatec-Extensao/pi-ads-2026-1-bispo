@@ -60,7 +60,7 @@ A pseudonimização reduz o risco, mas não transforma dados pessoais em dados a
 
 ## 5. Política de armazenamento e retenção
 
-A plataforma deverá possuir regras claras para armazenamento e exclusão dos dados.
+A futura plataforma deverá possuir regras claras para armazenamento e exclusão. Os períodos abaixo são hipóteses acadêmicas para discussão, não política aprovada, prazo legal universal ou prática implementada.
 
 Como proposta inicial para o projeto:
 
@@ -71,7 +71,7 @@ Como proposta inicial para o projeto:
 | Registros técnicos | Até 90 dias, como proposta inicial | Excluir após o período definido |
 | Cópias de segurança | Até 30 dias, como proposta inicial | Substituir ou eliminar conforme política de backup |
 
-Os períodos apresentados são sugestões para o projeto acadêmico, não prazos legais universais. Devem ser aprovados pelos responsáveis e ajustados às finalidades e obrigações aplicáveis.
+Os períodos apresentados são sugestões não aprovadas para discussão, não prazos legais universais nem política em vigor. Controlador, responsável institucional, finalidade e prazo aplicável: **pendentes de confirmação**.
 
 A eliminação deve abranger os ambientes de produção e, conforme o ciclo de backup, as cópias de segurança. Se algum dado precisar ser conservado por obrigação legal, defesa de direitos ou outra hipótese aplicável, a justificativa, o prazo e o acesso autorizado devem ser documentados.
 
@@ -93,7 +93,7 @@ O acesso aos dados deve ser limitado às pessoas que realmente precisam utilizá
 
 ## 7. Direitos dos titulares
 
-A plataforma deverá considerar os direitos previstos no Art. 18 da LGPD.
+Uma futura operação deverá avaliar os direitos previstos no Art. 18 da LGPD. Canal, controlador e procedimento de atendimento: **pendentes de confirmação institucional**.
 
 Entre eles estão:
 
@@ -105,7 +105,7 @@ Entre eles estão:
 - Revogação do consentimento, quando essa for a base legal utilizada.
 - Informação sobre decisões tomadas unicamente com base em tratamento automatizado que afetem os interesses do titular, quando houver.
 
-Deverá existir um canal de comunicação para que os participantes possam exercer seus direitos. As solicitações devem ser direcionadas inicialmente ao controlador responsável pela pesquisa. O atendimento deve confirmar a identidade do solicitante de modo proporcional, para não expor dados a terceiros.
+Antes de qualquer coleta, devem ser definidos e publicados o controlador responsável e um canal oficial para exercício de direitos. Ambos estão **pendentes de confirmação institucional**; este repositório não designa canal de atendimento. O procedimento deverá confirmar a identidade de modo proporcional e evitar exposição a terceiros.
 
 ## 8. Aviso de privacidade para participantes
 
@@ -119,19 +119,19 @@ Este sistema é um protótipo acadêmico do Projeto Integrador da FATEC Lins. El
 
 **Responsável e contato**
 
-O protótipo é mantido pela equipe do Projeto Integrador da FATEC Lins. Para dúvidas sobre esta demonstração, utilize o rastreador de Issues do repositório: https://github.com/Fatec-Extensao/pi-ads-2026-1-bispo/issues.
+Responsável institucional e canal oficial para dúvidas ou solicitações de titulares: **pendentes de confirmação**. O repositório não designa o rastreador de Issues como canal de atendimento.
 
 **Dados e finalidade**
 
 O front-end demonstrativo não possui autenticação real, banco de dados, API, envio de formulários ou armazenamento de respostas. Os valores e relatórios exibidos são fictícios e servem exclusivamente para demonstrar as funcionalidades previstas para o sistema.
 
-Por esse motivo, não há coleta de dados pessoais pelo protótipo nem base legal de tratamento a ser aplicada às respostas. Não informe dados pessoais, senhas reais ou informações de terceiros nos campos de demonstração.
+No código demonstrativo inspecionado, os formulários não enviam nem persistem respostas. Isso não permite afirmar ausência de todo tratamento técnico pelo provedor de hospedagem. Não informe dados pessoais, senhas reais ou informações de terceiros. A inexistência de tratamento de respostas neste fluxo é uma descrição técnica do protótipo, não conclusão jurídica sobre toda a hospedagem.
 
 **Compartilhamento, retenção e direitos**
 
-O protótipo não compartilha nem retém respostas ou cadastros reais. Como não há armazenamento de dados pelo sistema demonstrativo, não há dados de participantes a serem acessados, corrigidos ou eliminados pela equipe do projeto. A plataforma de hospedagem pode tratar dados técnicos de conexão segundo suas próprias políticas, fora do escopo do front-end demonstrativo.
+O protótipo não compartilha nem retém respostas ou cadastros reais. O front-end demonstrativo não oferece mecanismo próprio de acesso, correção ou eliminação de respostas porque não as persiste; dados técnicos eventualmente tratados pelo provedor estão sujeitos às políticas aplicáveis do serviço. A plataforma de hospedagem pode tratar dados técnicos de conexão segundo suas próprias políticas, fora do escopo do front-end demonstrativo.
 
-Não há decisões automatizadas que produzam efeitos sobre participantes. Este aviso está na versão 1.0, de 5 de novembro de 2026.
+Não há decisões automatizadas que produzam efeitos sobre participantes. Este aviso descreve o protótipo observado em 6 de novembro de 2026 e deve ser revisto se o código ou a hospedagem mudarem.
 
 ### 8.2 Modelo de aviso de privacidade para pesquisa real
 

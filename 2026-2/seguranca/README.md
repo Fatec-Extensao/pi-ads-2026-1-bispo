@@ -1,26 +1,17 @@
 # Compliance e Segurança da Informação
 
-Pasta destinada aos documentos e às futuras entregas da disciplina de
-Compliance e Segurança da Informação no Projeto Integrador de 2026-2.
+**Disciplina:** Compliance e Segurança da Informação
+**Professor informado no repositório:** Alciano Gustavo Genovez de Oliveira
 
-## Informações
+## Artefatos
 
-| Item | Situação |
-| --- | --- |
-| Professor(a) | Alciano Gustavo Genovez de Oliveira |
-| Objetivos específicos | Pendentes de confirmação |
-| Entregas | Pendentes de confirmação |
-| Requisitos e controles de segurança | Nenhum artefato registrado |
+- [Análise de riscos e ameaças Web](./analise-de-riscos.md): matriz qualitativa, ameaças, impactos e mitigações propostas.
+- [LGPD e anonimato](./lgpd-e-anonimato.md): análise acadêmica, limites do protótipo e campos institucionais a confirmar.
 
-Somente artefatos confirmados como parte do Projeto Integrador deverão ser
-incluídos nesta pasta.
+Os documentos descrevem recomendações e estado documental. Não constituem auditoria, pentest, parecer jurídico ou declaração de conformidade legal integral.
 
-## Artefatos esperados
+## Pendências que exigem validação
 
-- Análise de riscos em Markdown.
-- Documentação de LGPD e anonimato em Markdown.
-- Registros de controles de segurança em Markdown.
-
-Esses documentos serão criados somente quando houver conteúdo acadêmico real.
+Controlador, operador, encarregado e canal oficial; finalidade e categorias de dados de cada pesquisa; hipótese legal; compartilhamentos; retenção; e procedimento para direitos dos titulares dependem de confirmação institucional. O protótipo Web não possui autenticação real, backend nem persistência de respostas.
 
 [Voltar para 2026-2](../README.md)

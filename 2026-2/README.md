@@ -41,12 +41,14 @@ As atividades previstas e suas respectivas Issues estão registradas no
 ## Estrutura de entregas
 
 Cada disciplina possui uma pasta própria e um README para registrar sua
-finalidade, seu responsável e os artefatos esperados. Os prazos e resultados das
-entregas permanecem pendentes até sua confirmação.
+finalidade, seu responsável e os artefatos esperados. O estado técnico conhecido
+está no [Plano de Entregas](./PLANO-DE-ENTREGAS.md); aprovação acadêmica e decisões
+institucionais permanecem pendentes quando indicadas.
 
 ```text
 2026-2/
 ├── README.md
+├── PLANO-DE-ENTREGAS.md
 ├── engenharia-software/
 │   ├── README.md
 │   ├── requisitos.md
@@ -59,9 +61,17 @@ entregas permanecem pendentes até sua confirmação.
 │   ├── wireframes/
 │   │   └── sitemap.md
 │   └── src/
-└── seguranca/
-    └── README.md
+├── seguranca/
+│   ├── README.md
+│   ├── analise-de-riscos.md
+│   └── lgpd-e-anonimato.md
+└── entrega-final/
+    └── apresentacao.md
 ```
+
+Engenharia de Software e Banco de Dados incluem artefatos técnicos nesta
+entrega. A proposta SQL não está integrada à interface Web; consulte os READMEs
+de cada disciplina para escopo e evidências.
 
 ## Padrão de documentação
 
