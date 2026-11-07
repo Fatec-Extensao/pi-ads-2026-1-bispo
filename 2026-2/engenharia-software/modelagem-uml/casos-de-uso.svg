@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1010" viewBox="0 0 1500 1010" role="img" aria-labelledby="title desc">
+<title id="title">Casos de uso — pesquisas por questionários</title><desc id="desc">Proposta acadêmica para validação • repositório bispo • 15/10/2026</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#334155"/></marker><marker id="diamond" viewBox="0 0 16 10" refX="1" refY="5" markerWidth="14" markerHeight="10" orient="auto"><path d="M 1 5 L 8 1 L 15 5 L 8 9 Z" fill="#334155"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#172b45;font-size:18px}.title{font-size:30px;font-weight:bold}.sub{font-size:18px;fill:#475569}.label{font-size:17px}.head{font-weight:bold;font-size:21px}</style>
+<text x="35" y="45" class="title" text-anchor="start">Casos de uso — pesquisas por questionários</text>
+<text x="35" y="76" class="sub" text-anchor="start">Proposta acadêmica para validação • repositório bispo • 15/10/2026</text>
+<rect x="300" y="110" width="910" height="780" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+<text x="755" y="142" class="head" text-anchor="middle">Sistema web de pesquisas (escopo detalhado proposto)</text>
+<circle cx="140" cy="230" r="17" fill="white" stroke="#334155" stroke-width="2"/>
+<polyline points="140,247 140,295" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="111,264 169,264" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="113,324 140,295 167,324" fill="none" stroke="#334155" stroke-width="1.7"/>
+<text x="140" y="356" class="head" text-anchor="middle">Administrador</text>
+<circle cx="140" cy="620" r="17" fill="white" stroke="#334155" stroke-width="2"/>
+<polyline points="140,637 140,685" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="111,654 169,654" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="113,714 140,685 167,714" fill="none" stroke="#334155" stroke-width="1.7"/>
+<text x="140" y="746" class="head" text-anchor="middle">Proprietário</text>
+<circle cx="1360" cy="380" r="17" fill="white" stroke="#334155" stroke-width="2"/>
+<polyline points="1360,397 1360,445" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="1331,414 1389,414" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="1333,474 1360,445 1387,474" fill="none" stroke="#334155" stroke-width="1.7"/>
+<text x="1360" y="506" class="head" text-anchor="middle">Respondente</text>
+<ellipse cx="550" cy="230" rx="180" ry="48" fill="#eff6ff" stroke="#64748b" stroke-width="1.6"/>
+<text x="550" y="220" class="" text-anchor="middle">UC01 Gerenciar</text>
+<text x="550" y="244" class="" text-anchor="middle">categorias</text>
+<ellipse cx="550" cy="365" rx="180" ry="48" fill="#eff6ff" stroke="#64748b" stroke-width="1.6"/>
+<text x="550" y="355" class="" text-anchor="middle">UC09 Gerenciar</text>
+<text x="550" y="379" class="" text-anchor="middle">permissões</text>
+<ellipse cx="550" cy="535" rx="180" ry="48" fill="#eff6ff" stroke="#64748b" stroke-width="1.6"/>
+<text x="550" y="525" class="" text-anchor="middle">UC02 Gerenciar</text>
+<text x="550" y="549" class="" text-anchor="middle">questionário / pesquisa</text>
+<ellipse cx="550" cy="680" rx="180" ry="48" fill="#eff6ff" stroke="#64748b" stroke-width="1.6"/>
+<text x="550" y="670" class="" text-anchor="middle">UC03 Autorizar</text>
+<text x="550" y="694" class="" text-anchor="middle">participação</text>
+<ellipse cx="550" cy="825" rx="180" ry="48" fill="#eff6ff" stroke="#64748b" stroke-width="1.6"/>
+<text x="550" y="815" class="" text-anchor="middle">UC08 Consultar</text>
+<text x="550" y="839" class="" text-anchor="middle">resultados</text>
+<ellipse cx="990" cy="235" rx="180" ry="48" fill="#eff6ff" stroke="#64748b" stroke-width="1.6"/>
+<text x="990" y="225" class="" text-anchor="middle">UC04 Validar</text>
+<text x="990" y="249" class="" text-anchor="middle">acesso</text>
+<ellipse cx="990" cy="380" rx="180" ry="48" fill="#eff6ff" stroke="#64748b" stroke-width="1.6"/>
+<text x="990" y="370" class="" text-anchor="middle">UC05 Preencher</text>
+<text x="990" y="394" class="" text-anchor="middle">questionário</text>
+<ellipse cx="990" cy="535" rx="180" ry="48" fill="#eff6ff" stroke="#64748b" stroke-width="1.6"/>
+<text x="990" y="525" class="" text-anchor="middle">UC06 Finalizar</text>
+<text x="990" y="549" class="" text-anchor="middle">participação</text>
+<ellipse cx="990" cy="730" rx="180" ry="48" fill="#eff6ff" stroke="#64748b" stroke-width="1.6"/>
+<text x="990" y="720" class="" text-anchor="middle">UC07 Validar envio</text>
+<text x="990" y="744" class="" text-anchor="middle">e autorização</text>
+<polyline points="170,280 260,280 260,230 370,230" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="170,280 260,280 260,365 370,365" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="170,670 275,670 275,535 370,535" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="170,670 275,670 275,680 370,680" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="170,670 275,670 275,825 370,825" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="1330,430 1250,430 1250,235 1170,235" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="1330,430 1250,430 1250,380 1170,380" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="1330,430 1250,430 1250,535 1170,535" fill="none" stroke="#334155" stroke-width="1.7"/>
+<polyline points="990,583 990,682" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="1008" y="640" class="label" text-anchor="start">«include»</text>
+<text x="35" y="935" class="" text-anchor="start">As permissões, o token individual e as regras transacionais são propostas a validar.</text>
+<text x="35" y="967" class="" text-anchor="start">UC07 revalida no servidor; UC08 depende da política de divulgação. Não representa funcionalidades implementadas.</text>
+</svg>
